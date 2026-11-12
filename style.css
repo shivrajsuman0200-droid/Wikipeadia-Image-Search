@@ -1,0 +1,8 @@
+#results{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(220px,1fr)); /* here auto-fill says fit as many columns as it can
+    and minmax() makes sure each columns is atleast 220px but stretches to take up remaining space*/
+    gap: 18px;
+}
+
+
