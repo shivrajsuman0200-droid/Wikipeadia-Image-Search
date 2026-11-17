@@ -43,7 +43,7 @@ function render(items) {
         img.alt = item.title;
 
         const caption = document.createElement("p");
-        caption.textContent = item.title;  // The title
+        caption.textContent = item.title.replace(/^File:/,"").replace(/\.(jpg|png)$/i,"");  // The title
         console.log(item.title);
         console.log(item)
 
