@@ -43,13 +43,24 @@ function render(items) {
         img.alt = item.title;
 
         const caption = document.createElement("p");
-        caption.textContent = item.title.replace(/^File:/,"").replace(/\.(jpg|png)$/i,"");  // The title
-        console.log(item.title);
+        caption.textContent = item.title.replace(/^File:/, "").replace(/\.(jpg|png)$/i, "");  // The title
+        // console.log(item.title);
         console.log(item)
+
+        const url = document.createElement("p");
+        const a = document.createElement("a");
+        a.href = item.imageinfo[0].url;
+        a.textContent = "Open image";
+        a.target = "_blank";
+        url.appendChild(a);
+
+
 
         card.appendChild(img);
         card.appendChild(caption)
+        card.appendChild(url)
         results.appendChild(card); //add cards to grid
+
 
     });
 
