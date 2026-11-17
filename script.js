@@ -88,3 +88,11 @@ form.addEventListener("submit", async (event) => {
         console.log("new error" + error);
     }
 })
+
+
+async function search(query){
+    const status = document.getElementById("status");
+    status.innerHTML='<div class="spinner"></div>';
+    showSkeletons(); 
+
+}
