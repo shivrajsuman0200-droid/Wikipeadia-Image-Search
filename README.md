@@ -57,9 +57,7 @@ The project uses the API's search generator to find relevant files and retrieve 
 ## Running the Project
 
 1. Clone this repository:
-   ```bash
    git clone https://github.com/shivrajsuman0200-droid/Wikipeadia-Image-Search
-   ```
 2. Open the project folder.
 3. Open `index.html` in your browser.
 4. Enter a search term and explore the related images.
