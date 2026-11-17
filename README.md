@@ -1,6 +1,6 @@
 # Wikipedia Image Search
 
-A simple JavaScript project that allows users to search for a topic or enter any text and automatically fetches related images from **Wikimedia Commons API** and displays them in a clean, card-based layout.
+A simple JavaScript project that allows users to search for a topic or enter any text and automatically fetches related images from **Wikimedia Commons API** and displays them in a clean, card-based layout.   
 
 ## Features
 
