@@ -1,6 +1,7 @@
 const form = document.getElementById("search-form");
 const input = document.getElementById("search-input");
 
+// understanding concepts before applying 
 // form.addEventListener("submit", (e) => {
 //     e.preventDefault(); // prevents the default page reload
 //     const query = input.value;  // stores the value in query variable
@@ -39,10 +40,12 @@ function render(items) {
 
         const img = document.createElement("img");
         img.src = item.imageinfo[0].thumburl; // The picture , we use thumburl instead of real one as it loads faster
-        img.alt = item.tittle;
+        img.alt = item.title;
 
         const caption = document.createElement("p");
-        caption.textContent = item.tittle;  // The title
+        caption.textContent = item.title;  // The title
+        console.log(item.title);
+        console.log(item)
 
         card.appendChild(img);
         card.appendChild(caption)
