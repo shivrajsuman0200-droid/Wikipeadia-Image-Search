@@ -1,6 +1,10 @@
 # Wikipedia Image Search
 
-A simple JavaScript project that allows users to search for a topic or enter any text and automatically fetches related images from **Wikimedia Commons API** and displays them in a clean, card-based layout.
+A simple JavaScript project that allows users to search for a topic or enter any text and automatically fetches related images from the **Wikimedia Commons API** and displays them in a clean, card-based layout.
+
+## Live Demo
+
+**[View Wikipedia Image Search](https://wikipedia-image-search.netlify.app/)**
 
 ## Features
 
@@ -57,7 +61,11 @@ The project uses the API's search generator to find relevant files and retrieve 
 ## Running the Project
 
 1. Clone this repository:
-   git clone https://github.com/shivrajsuman0200-droid/Wikipeadia-Image-Search
+
+   ```bash
+   git clone https://github.com/shivrajsuman0200-droid/Wikipeadia-Image-Search.git
+   ```
+
 2. Open the project folder.
 3. Open `index.html` in your browser.
 4. Enter a search term and explore the related images.
@@ -66,3 +74,7 @@ The project uses the API's search generator to find relevant files and retrieve 
 
 Built as a hands-on JavaScript learning project to understand how frontend applications communicate with external APIs, process asynchronous data, and dynamically render content on a webpage.
 
+## Links
+
+- **Live Website:** https://wikipedia-image-search.netlify.app/
+- **GitHub Repository:** https://github.com/shivrajsuman0200-droid/Wikipeadia-Image-Search
